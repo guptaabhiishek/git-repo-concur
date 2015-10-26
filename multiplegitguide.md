@@ -46,3 +46,17 @@ Return to GitHub, and you should now see your repository. Remember:
 
 When pushing to your personal account, proceed as you always have.
 For your company account, make sure that you use git!github-COMPANY as the host.
+
+Now if i want to add and commit another file in git
+
+Then
+touch multiplegitguide.md
+git add .
+git commit -m 'second commit'
+git push -u origin master
+
+If I want to change host and repo for another commit then
+git remote add origin git@github.com:guptaabhiishek/git-repo-concur.git
+
+		
+	
